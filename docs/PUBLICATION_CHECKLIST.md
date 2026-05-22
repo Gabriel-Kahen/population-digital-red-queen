@@ -37,8 +37,7 @@ Recommended metadata:
 
 ## Public Links to Record
 
-- GitHub repository:
-- GitHub release:
+- GitHub repository: https://github.com/Gabriel-Kahen/population-digital-red-queen
+- GitHub release: https://github.com/Gabriel-Kahen/population-digital-red-queen/releases/tag/v0.1-preprint
 - Zenodo DOI:
 - OSF preprint:
-
