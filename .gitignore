@@ -5,6 +5,7 @@ __pycache__/
 .mypy_cache/
 .venv/
 *.egg-info/
+dist/
 results/corewar_pilot/
 data/corewar/benchmarks/_downloads/
 data/corewar/benchmarks/cgm1_round1/
