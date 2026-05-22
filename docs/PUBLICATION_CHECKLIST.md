@@ -18,26 +18,28 @@ Upload:
 
 - `paper/build/main.pdf`
 
-After GitHub/Zenodo publication, add:
+Current status:
 
-- GitHub repository URL.
-- Zenodo DOI.
+- General OSF Preprints submissions are suspended as of 2025-08-25.
+- Keep this metadata file for a future community OSF server submission if one is chosen.
 
 ## Zenodo
 
-Use the GitHub integration to archive the `v0.1-preprint` release.
+Published as a direct Zenodo preprint record with `paper/build/main.pdf`.
 
-Recommended metadata:
+Metadata used:
 
 - Title: `Population Digital Red Queen: A Model of LLM-Driven Coevolution in Program Ecosystems`
 - Creator: `Gabriel Kahen`
 - Version: `0.1-preprint`
-- Resource type: `Software`
-- Related identifier: GitHub release URL.
+- Resource type: `Publication / Preprint`
+- Repository URL: `https://github.com/Gabriel-Kahen/population-digital-red-queen`
+- DOI: `10.5281/zenodo.20349691`
 
 ## Public Links to Record
 
 - GitHub repository: https://github.com/Gabriel-Kahen/population-digital-red-queen
 - GitHub release: https://github.com/Gabriel-Kahen/population-digital-red-queen/releases/tag/v0.1-preprint
-- Zenodo DOI:
+- Zenodo record: https://zenodo.org/records/20349691
+- Zenodo DOI: https://doi.org/10.5281/zenodo.20349691
 - OSF preprint:
