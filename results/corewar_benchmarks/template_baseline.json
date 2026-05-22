@@ -1,0 +1,11 @@
+{
+  "candidate_count": 50,
+  "internal_heldout": 0.5055555555555555,
+  "program_id": "template_bomber_14",
+  "source": ";redcode-94\n;assert 1\n;name Template Bomber 14\n;author deterministic no-LLM baseline\n;strategy simple add/mov bomber template\n        org start\nstart   add #7, ptr\n        mov bomb, @ptr\n        jmp start\nbomb    dat #0, #0\nptr     dat #0, #1958\n        end start\n",
+  "suites": {
+    "koenigstuhl_94nop_top50": -0.6985888468447808,
+    "wilkies": -0.6874183006535948,
+    "wilmoo": -0.6441845354126056
+  }
+}

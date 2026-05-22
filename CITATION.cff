@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this paper, code, or artifact package, please cite it as below."
+title: "Population Digital Red Queen: A Model of LLM-Driven Coevolution in Program Ecosystems"
+authors:
+  - family-names: "Kahen"
+    given-names: "Gabriel"
+date-released: "2026-05-22"
+version: "0.1-preprint"
+type: software
+repository-code: "https://github.com/Gabriel-Kahen/population-digital-red-queen"
+abstract: "A research artifact and manuscript for Population Digital Red Queen, a population-level extension of LLM-driven adversarial program evolution studied in Core War."
+keywords:
+  - "Core War"
+  - "Redcode"
+  - "large language models"
+  - "evolutionary computation"
+  - "artificial life"
+  - "program synthesis"
+  - "self-play"

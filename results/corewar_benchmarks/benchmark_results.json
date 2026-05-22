@@ -1,0 +1,941 @@
+{
+  "champions": [
+    {
+      "archetype": "stone/clear",
+      "attempt": 1,
+      "batch_id": "verify_long_20260515T171256Z",
+      "cgm1_score": -0.5428901502121316,
+      "condition": "pop_current",
+      "dominant_opcode": "dat",
+      "exported_path": "results/corewar_benchmarks/champions/top01_pop_current_pop_current_g007_c0245_bf8bf3df.red",
+      "internal_heldout": 0.8441520467836258,
+      "koenigstuhl_top50_score": -0.752917734045185,
+      "length": 22,
+      "mean_heldout": 0.8212475633528264,
+      "nearest_reference": "dwarf",
+      "nearest_reference_similarity": 0.3577586206896552,
+      "population": [
+        "pop_current_g012_c0479_483c4efb",
+        "pop_current_g007_c0249_f1bd095f",
+        "pop_current_g010_c0376_f1bd095f",
+        "pop_current_g012_c0464_a1150e3b",
+        "pop_current_g011_c0403_f1bd095f",
+        "pop_current_g007_c0245_bf8bf3df"
+      ],
+      "program_id": "pop_current_g007_c0245_bf8bf3df",
+      "random_known_score": -0.45681762824951677,
+      "run_id": "verify_long_20260515T171256Z_long_s2015_a01",
+      "seed": 2015,
+      "source": ";redcode-94\n;assert 1\n;name Hybrid Bomb Spreader 7.0\n;author Generated\nstart   spl 0\n        mov.i clear_val, <ptr_clear\n        add #14, ptr\n        mov bomb, @ptr\n        add #21, ptr2\n        mov bomb2, @ptr2\n        add #28, ptr3\n        mov bomb3, @ptr3\n        add #35, ptr4\n        mov bomb4, @ptr4\n        add #42, ptr_clear\n        jmp start\nbomb    dat #0, #1\nptr     dat #0, #0\nbomb2   dat #0, #2\nptr2    dat #0, #0\nbomb3   dat #0, #3\nptr3    dat #0, #0\nbomb4   dat #0, #4\nptr4    dat #0, #0\nclear_val dat #0, #0\nptr_clear dat #0, #0\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_20260515T171256Z_long_s2015_a01/programs/pop_current_g007_c0245_bf8bf3df_bf8bf3dff677.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.5405458089668616,
+      "wilmoo_score": -0.6360712169858197
+    },
+    {
+      "archetype": "paper/silk",
+      "attempt": 1,
+      "batch_id": "verify_long_extra10_20260516T175027Z",
+      "cgm1_score": -0.40298022425344404,
+      "condition": "pop_current",
+      "dominant_opcode": "dat",
+      "exported_path": "results/corewar_benchmarks/champions/top02_pop_current_pop_current_g001_c0017_67265a48.red",
+      "internal_heldout": 0.7736111111111111,
+      "koenigstuhl_top50_score": -0.6349962007663246,
+      "length": 9,
+      "mean_heldout": 0.732175925925926,
+      "nearest_reference": "paper",
+      "nearest_reference_similarity": 0.9424460431654677,
+      "population": [
+        "pop_current_g008_c0303_ada7ef88",
+        "pop_current_g001_c0017_67265a48",
+        "pop_current_g010_c0383_21dd3b3e",
+        "pop_current_g009_c0360_76a7f762",
+        "pop_current_g012_c0444_2402bc85",
+        "pop_current_g010_c0377_2b34b282"
+      ],
+      "program_id": "pop_current_g001_c0017_67265a48",
+      "random_known_score": -0.3874885242036945,
+      "run_id": "verify_long_extra10_20260516T175027Z_long_s2026_a01",
+      "seed": 2026,
+      "source": ";redcode-94\n;assert 1\n;name PDRQ Modified Paper Splitter\n;author PDRQ setup + mutation\n;strategy a replicator that splits, with an attack at the end of the copy\n        org start\nstart   spl copy\n        spl 1\ncopy    mov <src, <dst\n        djn copy, #6\n        mov #1, @-1 ; Attack after replication\n        jmp @dst\nsrc     dat #0, #last\ndst     dat #0, #150\nlast    dat #0, #0\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_extra10_20260516T175027Z_long_s2026_a01/programs/pop_current_g001_c0017_67265a48_67265a486f6a.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.4393101490108714,
+      "wilmoo_score": -0.5000343997248022
+    },
+    {
+      "archetype": "vampire",
+      "attempt": 2,
+      "batch_id": "verify_long_20260515T171256Z",
+      "cgm1_score": -0.4702278367487346,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "jmp",
+      "exported_path": "results/corewar_benchmarks/champions/top03_pop_archive_niche_pop_archive_niche_g009_c0359_2352dfee.red",
+      "internal_heldout": 0.7340305892937472,
+      "koenigstuhl_top50_score": -0.6529385418884903,
+      "length": 13,
+      "mean_heldout": 0.6076209548646769,
+      "nearest_reference": "vampire",
+      "nearest_reference_similarity": 0.6479750778816199,
+      "population": [
+        "pop_archive_niche_g012_c0478_a1d8e1f8",
+        "pop_archive_niche_g012_c0476_58025e87",
+        "pop_archive_niche_g007_c0263_fbb6846a",
+        "pop_archive_niche_g009_c0359_2352dfee",
+        "pop_archive_niche_g003_c0103_e5eb27ee",
+        "pop_archive_niche_g010_c0392_a83a835e"
+      ],
+      "program_id": "pop_archive_niche_g009_c0359_2352dfee",
+      "random_known_score": -0.45853168915707615,
+      "run_id": "verify_long_20260515T171256Z_long_s2009_a02",
+      "seed": 2009,
+      "source": ";redcode-94\n;assert 1\n;name PDRQ Stone Vampire Hunter v3.2 - Adaptive Split & Bomb (Recombined)\n;author PDRQ setup / AI / Mutated / Recombined\n;strategy A hybrid that splits, uses a vampire-like attack, and overwrites with DATs. Further increased adaptive splitting and bomb spread for wider coverage and disruption.\n        org start\nstart   spl 0, <ptr_inc  ; Adaptive initial split for wider coverage\n        add #7, fang\n        mov fang, @fang\n        add #11, ptr     ; Increased adaptive increment for bomb spread\n        mov bomb, @ptr\n        djn next, #99    ; More aggressive loop count for more bombs and splits\nnext    jmp start\nfang    jmp trap, #100\ntrap    spl 0\n        jmp trap\nbomb    dat #0, #0\nptr     dat #0, #1\nptr_inc dat #0, #7       ; Adjusted adaptive split increment\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_20260515T171256Z_long_s2009_a02/programs/pop_archive_niche_g009_c0359_2352dfee_2352dfee3c44.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.5371872969460689,
+      "wilmoo_score": -0.6402138846991788
+    },
+    {
+      "archetype": "vampire",
+      "attempt": 1,
+      "batch_id": "scaleup_flash_20260515T052028Z",
+      "cgm1_score": -0.44098127821038036,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "jmp",
+      "exported_path": "results/corewar_benchmarks/champions/top04_pop_archive_niche_pop_archive_niche_g008_c0320_94b48fa8.red",
+      "internal_heldout": 0.7240415854450942,
+      "koenigstuhl_top50_score": -0.6451394352026447,
+      "length": 17,
+      "mean_heldout": 0.5515324599625425,
+      "nearest_reference": "paper",
+      "nearest_reference_similarity": 0.5935828877005348,
+      "population": [
+        "pop_archive_niche_g012_c0471_5f9d846a",
+        "pop_archive_niche_g011_c0426_e3c451e6",
+        "pop_archive_niche_g012_c0451_177b8e7a",
+        "pop_archive_niche_g012_c0453_4b61ae72",
+        "splitter",
+        "pop_archive_niche_g008_c0320_94b48fa8"
+      ],
+      "program_id": "pop_archive_niche_g008_c0320_94b48fa8",
+      "random_known_score": -0.43626365080854246,
+      "run_id": "scaleup_flash_20260515T052028Z_long_s1003_a01",
+      "seed": 1003,
+      "source": ";redcode-94\n;assert 1\n;name PDRQ Splitter Vampire Bomb Enhanced 9.1 (Fang and Bomb Spread Variation)\n;author PDRQ setup\nstart   spl 0\n        add #8, fang  ; Varied fang spread\n        mov fang, @fang\n        add #5, ptr   ; Varied bomb spacing\n        mov bomb, @ptr\n        spl copy\n        jmp start\ncopy    mov <src, <dst\n        djn copy, #7  ; Varied copy length\n        jmp @dst\nfang    jmp trap, #100\ntrap    spl 0\n        jmp trap\nbomb    dat #0, #0\nsrc     dat #0, #0\ndst     dat #0, #200\nptr     dat #0, #0\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/scaleup_flash_20260515T052028Z_long_s1003_a01/programs/pop_archive_niche_g008_c0320_94b48fa8_94b48fa8e386.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.4989766081871345,
+      "wilmoo_score": -0.7514813381492949
+    },
+    {
+      "archetype": "spl-based hybrid",
+      "attempt": 1,
+      "batch_id": "scaleup_flash_20260515T052028Z",
+      "cgm1_score": -0.5200219912526414,
+      "condition": "pop_current",
+      "dominant_opcode": "dat",
+      "exported_path": "results/corewar_benchmarks/champions/top05_pop_current_pop_current_g011_c0435_1a64f14c.red",
+      "internal_heldout": 0.7146198830409357,
+      "koenigstuhl_top50_score": -0.740773720317064,
+      "length": 14,
+      "mean_heldout": 0.6425209264992546,
+      "nearest_reference": "paper",
+      "nearest_reference_similarity": 0.7386363636363636,
+      "population": [
+        "pop_current_g012_c0460_4683d993",
+        "pop_current_g012_c0480_32f719bc",
+        "pop_current_g011_c0435_1a64f14c",
+        "pop_current_g012_c0473_8ca3aff9",
+        "pop_current_g007_c0277_76ad4709",
+        "pop_current_g006_c0224_ae8d3902"
+      ],
+      "program_id": "pop_current_g011_c0435_1a64f14c",
+      "random_known_score": -0.46473293155646095,
+      "run_id": "scaleup_flash_20260515T052028Z_long_s1008_a01",
+      "seed": 1008,
+      "source": ";redcode-94\n;assert 1\n;name Rapid Spreader (Mutated)\n;author AI\n;strategy Focuses on rapid spreading and bombing, with a slightly smaller replication size for faster deployment.\n        org start\nstart   spl copy        ; Start replication\n        mov bomb, @ptr  ; Bomb an address pointed to by ptr\n        add #5, ptr     ; Increment ptr to bomb a new location (slightly slower bombing frequency)\n        add #40, dst    ; Dynamically adjust replication destination for wider spread\n        spl 0, #5       ; Split, new process starts 5 instructions after this one for very fast spread\n        jmp start       ; Loop back to bomb again\ncopy    mov <src, <dst  ; Replicate instructions\n        djn copy, #12   ; Loop 12 times for replication (smaller replication size)\n        jmp @dst        ; Jump to the replicated code\nsrc     dat #0, #last   ; Source for replication\ndst     dat #0, #200    ; Destination for replication\nbomb    dat #0, #0      ; Bomb instruction\nptr     dat #0, #1      ; Pointer for bombing\nlast    dat #0, #0      ; End of replication source\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/scaleup_flash_20260515T052028Z_long_s1008_a01/programs/pop_current_g011_c0435_1a64f14c_1a64f14c1bed.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.5278914879792073,
+      "wilmoo_score": -0.7420223693766005
+    },
+    {
+      "archetype": "vampire",
+      "attempt": 1,
+      "batch_id": "verify_long_extra10_20260516T175027Z",
+      "cgm1_score": -0.27958274740395483,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "jmp",
+      "exported_path": "results/corewar_benchmarks/champions/top06_pop_archive_niche_pop_archive_niche_g012_c0453_2529b8ee.red",
+      "internal_heldout": 0.7091269841269842,
+      "koenigstuhl_top50_score": -0.35577553266020756,
+      "length": 12,
+      "mean_heldout": 0.6498013711657502,
+      "nearest_reference": "vampire",
+      "nearest_reference_similarity": 0.5227963525835866,
+      "population": [
+        "pop_archive_niche_g012_c0456_568d6b57",
+        "pop_archive_niche_g010_c0397_c4d90691",
+        "pop_archive_niche_g012_c0463_568d6b57",
+        "pop_archive_niche_g010_c0395_995caafd",
+        "pop_archive_niche_g012_c0448_b4d2edd1",
+        "pop_archive_niche_g012_c0453_2529b8ee"
+      ],
+      "program_id": "pop_archive_niche_g012_c0453_2529b8ee",
+      "random_known_score": -0.2500440511787261,
+      "run_id": "verify_long_extra10_20260516T175027Z_long_s2026_a01",
+      "seed": 2026,
+      "source": ";redcode-94\n;assert 1\n;name PDRQ Hybrid Bomb-Vampire (Adaptive Spread, Dual Offset) - Optimized\n;author PDRQ setup (Recombination) - Optimized\nstart   spl 0\n        mov bomb, <bomb_target\n        mov fang, @fang_target\n        add #28, bomb_target ; Slightly increased bomb spread\n        add #22, fang_target ; Slightly increased vampire spread\n        jmp start\nbomb    dat #0, #0\nfang    jmp trap, #100\ntrap    spl -1\n        jmp trap\nbomb_target dat #0, #110 ; Adjusted initial offset\nfang_target dat #0, #90  ; Adjusted initial offset\nend start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_extra10_20260516T175027Z_long_s2026_a01/programs/pop_archive_niche_g012_c0453_2529b8ee_2529b8ee4172.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.412428278778898,
+      "wilmoo_score": -0.4365558819119191
+    },
+    {
+      "archetype": "imp/imp-ring",
+      "attempt": 2,
+      "batch_id": "verify_long_20260515T171256Z",
+      "cgm1_score": -0.49194363657211954,
+      "condition": "pop_current",
+      "dominant_opcode": "mov",
+      "exported_path": "results/corewar_benchmarks/champions/top07_pop_current_pop_current_g007_c0264_e18a383e.red",
+      "internal_heldout": 0.7055555555555556,
+      "koenigstuhl_top50_score": -0.7736923326835607,
+      "length": 20,
+      "mean_heldout": 0.49375254375254374,
+      "nearest_reference": "paper",
+      "nearest_reference_similarity": 0.6128266033254157,
+      "population": [
+        "pop_current_g012_c0479_ff947002",
+        "pop_current_g011_c0424_380f7a25",
+        "pop_current_g009_c0344_5bd00f56",
+        "pop_current_g012_c0476_4e778688",
+        "pop_current_g007_c0264_e18a383e",
+        "pop_current_g012_c0445_db2bd5d6"
+      ],
+      "program_id": "pop_current_g007_c0264_e18a383e",
+      "random_known_score": -0.5125662030894229,
+      "run_id": "verify_long_20260515T171256Z_long_s2011_a02",
+      "seed": 2011,
+      "source": ";redcode-94\n;assert 1\n;name PDRQ Seed Vampire - Mutation 18 (Aggressive, Wider, Faster, Quad Bomb, Anti-Paper)\n;author PDRQ setup / AI\n;strategy An even more aggressive fang bomber with wider spread, faster bombing, anti-paper, and self-replication for increased presence, with a quad bomb for enhanced attack.\n        org start\nstart   spl copy      ; Start a self-replication process\n        add #37, fang ; Wider spread to hit more areas quickly\n        mov fang, @fang\n        jmp start\ncopy    mov <src, <dst\n        djn copy, #6  ; Replicate 6 instructions\n        jmp @dst      ; Jump to the new copy\nsrc     dat #0, #last\ndst     dat #0, #300\nlast    dat #0, #0\n        add #1, dst   ; Update destination for next copy\n        mov dst, @dst\nfang    jmp trap, #58 ; Faster bombing, more aggressive\ntrap    spl 0\n        mov 0, 1      ; Small anti-paper modification\n        mov #0, @-2   ; Dual bomb for enhanced attack\n        mov #0, @-3   ; Triple bomb for enhanced attack\n        mov #0, @-4   ; Quad bomb for enhanced attack\n        mov -1, -1    ; Added for core robustness\n        jmp trap\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_20260515T171256Z_long_s2011_a02/programs/pop_current_g007_c0264_e18a383e_e18a383e456b.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.5506172839506173,
+      "wilmoo_score": -0.7600198753965524
+    },
+    {
+      "archetype": "vampire",
+      "attempt": 2,
+      "batch_id": "scaleup_flash_20260515T052028Z",
+      "cgm1_score": -0.651124011007912,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "mov",
+      "exported_path": "results/corewar_benchmarks/champions/top08_pop_archive_niche_pop_archive_niche_g012_c0470_92d76e76.red",
+      "internal_heldout": 0.6888888888888889,
+      "koenigstuhl_top50_score": -0.839407464740282,
+      "length": 6,
+      "mean_heldout": 0.6055555555555556,
+      "nearest_reference": "vampire",
+      "nearest_reference_similarity": 0.6564102564102564,
+      "population": [
+        "pop_archive_niche_g012_c0448_4ae47a23",
+        "pop_archive_niche_g012_c0470_92d76e76",
+        "pop_archive_niche_g010_c0391_625f6076",
+        "pop_archive_niche_g009_c0335_4c3cd7d5",
+        "pop_archive_niche_g011_c0434_a4e13aad",
+        "pop_archive_niche_g010_c0392_5459e116"
+      ],
+      "program_id": "pop_archive_niche_g012_c0470_92d76e76",
+      "random_known_score": -0.5874663733239585,
+      "run_id": "scaleup_flash_20260515T052028Z_long_s1001_a02",
+      "seed": 1001,
+      "source": ";redcode-94\n;assert 1\n;name Hybrid Dwarf Spread Faster (Aggressive Bomb Recomb)\n;author PDRQ setup (modified)\nstart   spl 0\n        add #1, fang\n        mov bomb, @fang\n        jmp -2\nfang    jmp bomb, #10\nbomb    mov 0, <0 ; Changed to MOV bomb for more aggressive killing\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/scaleup_flash_20260515T052028Z_long_s1001_a02/programs/pop_archive_niche_g012_c0470_92d76e76_92d76e76188d.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.6482561250621106,
+      "wilmoo_score": -0.7507269330734243
+    },
+    {
+      "archetype": "stone/clear",
+      "attempt": 2,
+      "batch_id": "verify_long_20260515T171256Z",
+      "cgm1_score": -0.6909223756979175,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "jmp",
+      "exported_path": "results/corewar_benchmarks/champions/top09_pop_archive_niche_pop_archive_niche_g010_c0377_d71da23d.red",
+      "internal_heldout": 0.6831088664421998,
+      "koenigstuhl_top50_score": -0.8189378129419409,
+      "length": 28,
+      "mean_heldout": 0.4519128805141017,
+      "nearest_reference": "paper",
+      "nearest_reference_similarity": 0.2967741935483871,
+      "population": [
+        "pop_archive_niche_g011_c0436_8de070fc",
+        "pop_archive_niche_g012_c0479_9747a789",
+        "pop_archive_niche_g011_c0418_92f02553",
+        "pop_archive_niche_g010_c0380_2b4deee0",
+        "pop_archive_niche_g011_c0425_61d71f0c",
+        "pop_archive_niche_g010_c0377_d71da23d"
+      ],
+      "program_id": "pop_archive_niche_g010_c0377_d71da23d",
+      "random_known_score": -0.4784502467490084,
+      "run_id": "verify_long_20260515T171256Z_long_s2016_a02",
+      "seed": 2016,
+      "source": ";redcode-94\n;assert 1\n;name JMP-Bomb-Add-Neg-Spread-Multi-V4\n;author LLM\n;strategy A splitter using ADD and NEG for bomb target modification, with multiple pointers for wide spread and varied bombs.\n;         This version increases the number of pointers and bombs for a more aggressive spread and diversifies bomb types.\n;         It also introduces more spl instructions to increase the process count and thus the bombing rate.\n        org start\nstart   spl 0\n        spl 0           ; Added another SPL\n        spl 0           ; Even more SPLs for higher process count\n        mov bomb1, @ptr1\n        add #3, ptr1\n        neg ptr1\n        mov bomb2, @ptr2\n        add #5, ptr2\n        neg ptr2\n        mov bomb3, @ptr3\n        add #7, ptr3\n        neg ptr3\n        mov bomb4, @ptr4\n        add #9, ptr4\n        neg ptr4\n        mov bomb5, @ptr5\n        add #11, ptr5\n        neg ptr5\n        mov bomb6, @ptr6\n        add #13, ptr6\n        neg ptr6\n        jmp start\nbomb1   jmp -1, -1\nbomb2   jmp -2, -1\nbomb3   jmp -1, -2\nbomb4   jmp -2, -2\nbomb5   jmp -3, -1\nbomb6   jmp -1, -3\nptr1    dat #0, #0\nptr2    dat #0, #0\nptr3    dat #0, #0\nptr4    dat #0, #0\nptr5    dat #0, #0\nptr6    dat #0, #0\n        end start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_20260515T171256Z_long_s2016_a02/programs/pop_archive_niche_g010_c0377_d71da23d_d71da23d2476.red",
+      "valid": true,
+      "validation_output": "Warning in line 17: '        neg ptr2'\n        Ignored, redefinition of label 'neg'\nWarning in line 20: '        neg ptr3'\n        Ignored, redefinition of label 'neg'\nWarning in line 23: '        neg ptr4'\n        Ignored, redefinition of label 'neg'\nWarning in line 26: '        neg ptr5'\n        Ignored, redefinition of label 'neg'\nWarning in line 29: '        neg ptr6'\n        Ignored, redefinition of label 'neg'\nWarning in line 37: 'ptr1    dat #0, #0'\n        Ignored, redefinition of label 'ptr1'\nNumber of warnings: 6",
+      "wilkies_score": -0.6584221992890723,
+      "wilmoo_score": -0.7861958136080943
+    },
+    {
+      "archetype": "imp/imp-ring",
+      "attempt": 1,
+      "batch_id": "verify_long_20260515T171256Z",
+      "cgm1_score": -0.4601597465142357,
+      "condition": "pop_archive_niche",
+      "dominant_opcode": "mov",
+      "exported_path": "results/corewar_benchmarks/champions/top10_pop_archive_niche_pop_archive_niche_g012_c0479_b0f860d5.red",
+      "internal_heldout": 0.673546464619736,
+      "koenigstuhl_top50_score": -0.6925204301107294,
+      "length": 34,
+      "mean_heldout": 0.5457347290143127,
+      "nearest_reference": "vampire",
+      "nearest_reference_similarity": 0.3360258481421648,
+      "population": [
+        "pop_archive_niche_g012_c0451_f71c3ef5",
+        "pop_archive_niche_g012_c0479_b0f860d5",
+        "pop_archive_niche_g012_c0453_89f4f9e1",
+        "pop_archive_niche_g005_c0165_1deb7c99",
+        "pop_archive_niche_g012_c0463_b882f52c",
+        "pop_archive_niche_g005_c0183_1101df23"
+      ],
+      "program_id": "pop_archive_niche_g012_c0479_b0f860d5",
+      "random_known_score": -0.47952197017522097,
+      "run_id": "verify_long_20260515T171256Z_long_s2007_a01",
+      "seed": 2007,
+      "source": ";redcode-94\n;assert 1\n;name Hybrid VampBombSplitter v7.5 (Aggressive Recomb + Defensive + Wider Spread)\n;author PDRQ setup / AI / Mutation\norg start\nstart   spl 0           ; Initial split for wider spread\n        spl 0           ; Aggressive early split\n        add #7, target  ; Adjust target for next bomb write, slightly more aggressive\n        mov bomb, @target ; Write a bomb (DAT) instruction\n        cmp #0, @target ; Check if the bomb was effective\n        jmn 0, bomb_effective ; If effective, adapt and split with bomb focus\n        add #8, fang    ; Increment the address for the vampire attack\n        mov fang, @fang ; Attack the target\n        cmp #0, @fang   ; Check if the attack was effective (target is 0)\n        jmn 0, vampire_effective ; If effective, adapt attack\n        mov #0, -1      ; Defensive move: clear the instruction behind\n        jmp start       ; Continue the loop\nbomb_effective spl 0          ; Additional split if a bomb was effective\n        mov 0, 1        ; Propagate the logic to new processes\n        add #5, target  ; Increase bomb range after a kill (more aggressive)\n        mov fang, @fang ; Also apply a vampire attack after a bomb kill\n        add #3, fang    ; Slightly increase fang range after bomb kill for variety\n        mov bomb, @target ; Write another bomb after a kill for more spread\n        add #9, ptr     ; Introduce a new, wider spread mechanism\n        mov bomb, @ptr  ; Use bomb with the new spread ptr\n        jmp start\nvampire_effective spl 0         ; Split if vampire effective\n        add #6, fang    ; Increment fang faster if vampire effective\n        mov 0, 1        ; Also propagate on vampire effective\n        add #4, target  ; Increase bomb range as well\n        mov bomb, @target ; Also write a bomb after vampire kill for wider impact\n        mov #0, -1      ; Defensive move: clear the instruction behind\n        jmp start\nfang    jmp trap, #100  ; The vampire's target\nbomb    dat #0, #0      ; The data to overwrite with\ntarget  dat #0, #0      ; The target address for overwriting\nptr     dat #0, #0      ; New pointer for wider spread\ntrap    spl 0\n        jmp trap\nend start\n",
+      "source_path": "/Users/gabrielkahen/Documents/New project 12/results/corewar_pilot/verify_long_20260515T171256Z_long_s2007_a01/programs/pop_archive_niche_g012_c0479_b0f860d5_b0f860d574ca.red",
+      "valid": true,
+      "validation_output": "",
+      "wilkies_score": -0.5884445591101938,
+      "wilmoo_score": -0.7173595412823999
+    }
+  ],
+  "config": {
+    "batches": [
+      "scaleup_flash_20260515T052028Z",
+      "verify_long_20260515T171256Z",
+      "verify_long_extra10_20260516T175027Z"
+    ],
+    "mars_bin": "/Users/gabrielkahen/Documents/New project 12/vendor/pmars-bin",
+    "match_rounds": 20,
+    "offsets": [
+      100,
+      500,
+      1500
+    ],
+    "random_known_seed": 1776,
+    "random_known_size": 50
+  },
+  "results": {
+    "pop_archive_niche_g008_c0320_94b48fa8": {
+      "cgm1_round1": {
+        "losses": 45,
+        "mean_margin": -0.44098127821038036,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 5,
+        "wins": 10
+      },
+      "internal_heldout": {
+        "losses": 2,
+        "mean_margin": 0.7240415854450942,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 1,
+        "wins": 15
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 109,
+        "mean_margin": -0.43626365080854246,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 11,
+        "wins": 30
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 144,
+        "mean_margin": -0.6451394352026447,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 17,
+        "wins": 19
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.6979432198730444,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 4,
+        "wins": 14
+      },
+      "wilkies": {
+        "losses": 27,
+        "mean_margin": -0.4989766081871345,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 4,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 32,
+        "mean_margin": -0.7514813381492949,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 1,
+        "wins": 3
+      }
+    },
+    "pop_archive_niche_g009_c0359_2352dfee": {
+      "cgm1_round1": {
+        "losses": 46,
+        "mean_margin": -0.4702278367487346,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 4,
+        "wins": 10
+      },
+      "internal_heldout": {
+        "losses": 2,
+        "mean_margin": 0.7340305892937472,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 0,
+        "wins": 16
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 109,
+        "mean_margin": -0.45853168915707615,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 16,
+        "wins": 25
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 146,
+        "mean_margin": -0.6529385418884903,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 17,
+        "wins": 17
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.7469460688758934,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 29,
+        "mean_margin": -0.5371872969460689,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 29,
+        "mean_margin": -0.6402138846991788,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 4,
+        "wins": 3
+      }
+    },
+    "pop_archive_niche_g010_c0377_d71da23d": {
+      "cgm1_round1": {
+        "losses": 52,
+        "mean_margin": -0.6909223756979175,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 2,
+        "wins": 6
+      },
+      "internal_heldout": {
+        "losses": 2,
+        "mean_margin": 0.6831088664421998,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 13
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 105,
+        "mean_margin": -0.4784502467490084,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 20,
+        "wins": 25
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 158,
+        "mean_margin": -0.8189378129419409,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 16,
+        "wins": 6
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.6449074074074074,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 6,
+        "wins": 12
+      },
+      "wilkies": {
+        "losses": 29,
+        "mean_margin": -0.6584221992890723,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 3,
+        "wins": 4
+      },
+      "wilmoo": {
+        "losses": 31,
+        "mean_margin": -0.7861958136080943,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 4,
+        "wins": 1
+      }
+    },
+    "pop_archive_niche_g012_c0453_2529b8ee": {
+      "cgm1_round1": {
+        "losses": 43,
+        "mean_margin": -0.27958274740395483,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 2,
+        "wins": 15
+      },
+      "internal_heldout": {
+        "losses": 3,
+        "mean_margin": 0.7091269841269842,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 1,
+        "wins": 14
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 99,
+        "mean_margin": -0.2500440511787261,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 8,
+        "wins": 43
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 131,
+        "mean_margin": -0.35577553266020756,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 5,
+        "wins": 44
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.6623456790123456,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 4,
+        "wins": 14
+      },
+      "wilkies": {
+        "losses": 27,
+        "mean_margin": -0.412428278778898,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 3,
+        "wins": 6
+      },
+      "wilmoo": {
+        "losses": 28,
+        "mean_margin": -0.4365558819119191,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 6
+      }
+    },
+    "pop_archive_niche_g012_c0470_92d76e76": {
+      "cgm1_round1": {
+        "losses": 53,
+        "mean_margin": -0.651124011007912,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 2,
+        "wins": 5
+      },
+      "internal_heldout": {
+        "losses": 2,
+        "mean_margin": 0.6888888888888889,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 13
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 118,
+        "mean_margin": -0.5874663733239585,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 16,
+        "wins": 16
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 166,
+        "mean_margin": -0.839407464740282,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 6,
+        "wins": 8
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.7494152046783625,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 31,
+        "mean_margin": -0.6482561250621106,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 0,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 32,
+        "mean_margin": -0.7507269330734243,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 1,
+        "wins": 3
+      }
+    },
+    "pop_archive_niche_g012_c0479_b0f860d5": {
+      "cgm1_round1": {
+        "losses": 47,
+        "mean_margin": -0.4601597465142357,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 1,
+        "wins": 12
+      },
+      "internal_heldout": {
+        "losses": 4,
+        "mean_margin": 0.673546464619736,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 0,
+        "wins": 14
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 110,
+        "mean_margin": -0.47952197017522097,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 11,
+        "wins": 29
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 150,
+        "mean_margin": -0.6925204301107294,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 15,
+        "wins": 15
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.7763253449527959,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 29,
+        "mean_margin": -0.5884445591101938,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 32,
+        "mean_margin": -0.7173595412823999,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 2
+      }
+    },
+    "pop_current_g001_c0017_67265a48": {
+      "cgm1_round1": {
+        "losses": 42,
+        "mean_margin": -0.40298022425344404,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 5,
+        "wins": 13
+      },
+      "internal_heldout": {
+        "losses": 0,
+        "mean_margin": 0.7736111111111111,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 104,
+        "mean_margin": -0.3874885242036945,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 13,
+        "wins": 33
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 151,
+        "mean_margin": -0.6349962007663246,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 11,
+        "wins": 18
+      },
+      "training_seeds": {
+        "losses": 1,
+        "mean_margin": 0.5646198830409357,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 4,
+        "wins": 13
+      },
+      "wilkies": {
+        "losses": 24,
+        "mean_margin": -0.4393101490108714,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 4,
+        "wins": 8
+      },
+      "wilmoo": {
+        "losses": 28,
+        "mean_margin": -0.5000343997248022,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 6
+      }
+    },
+    "pop_current_g007_c0245_bf8bf3df": {
+      "cgm1_round1": {
+        "losses": 51,
+        "mean_margin": -0.5428901502121316,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 2,
+        "wins": 7
+      },
+      "internal_heldout": {
+        "losses": 1,
+        "mean_margin": 0.8441520467836258,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 1,
+        "wins": 16
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 112,
+        "mean_margin": -0.45681762824951677,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 10,
+        "wins": 28
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 162,
+        "mean_margin": -0.752917734045185,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 7,
+        "wins": 11
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.7648148148148148,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 30,
+        "mean_margin": -0.5405458089668616,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 1,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 30,
+        "mean_margin": -0.6360712169858197,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 4,
+        "wins": 2
+      }
+    },
+    "pop_current_g007_c0264_e18a383e": {
+      "cgm1_round1": {
+        "losses": 46,
+        "mean_margin": -0.49194363657211954,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 3,
+        "wins": 11
+      },
+      "internal_heldout": {
+        "losses": 3,
+        "mean_margin": 0.7055555555555556,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 0,
+        "wins": 15
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 113,
+        "mean_margin": -0.5125662030894229,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 11,
+        "wins": 26
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 161,
+        "mean_margin": -0.7736923326835607,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 3,
+        "wins": 16
+      },
+      "training_seeds": {
+        "losses": 2,
+        "mean_margin": 0.6722222222222223,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 1,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 26,
+        "mean_margin": -0.5506172839506173,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 6,
+        "wins": 4
+      },
+      "wilmoo": {
+        "losses": 32,
+        "mean_margin": -0.7600198753965524,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 1,
+        "wins": 3
+      }
+    },
+    "pop_current_g011_c0435_1a64f14c": {
+      "cgm1_round1": {
+        "losses": 49,
+        "mean_margin": -0.5200219912526414,
+        "n_opponents": 20,
+        "round_scores": 60,
+        "ties": 4,
+        "wins": 7
+      },
+      "internal_heldout": {
+        "losses": 2,
+        "mean_margin": 0.7146198830409357,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 2,
+        "wins": 14
+      },
+      "koenigstuhl_94nop_random50": {
+        "losses": 111,
+        "mean_margin": -0.46473293155646095,
+        "n_opponents": 50,
+        "round_scores": 150,
+        "ties": 11,
+        "wins": 28
+      },
+      "koenigstuhl_94nop_top50": {
+        "losses": 162,
+        "mean_margin": -0.740773720317064,
+        "n_opponents": 60,
+        "round_scores": 180,
+        "ties": 3,
+        "wins": 15
+      },
+      "training_seeds": {
+        "losses": 0,
+        "mean_margin": 0.8111111111111111,
+        "n_opponents": 6,
+        "round_scores": 18,
+        "ties": 3,
+        "wins": 15
+      },
+      "wilkies": {
+        "losses": 29,
+        "mean_margin": -0.5278914879792073,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 2,
+        "wins": 5
+      },
+      "wilmoo": {
+        "losses": 33,
+        "mean_margin": -0.7420223693766005,
+        "n_opponents": 12,
+        "round_scores": 36,
+        "ties": 0,
+        "wins": 3
+      }
+    }
+  },
+  "suite_sizes_after_validation": {
+    "cgm1_round1": 20,
+    "internal_heldout": 6,
+    "koenigstuhl_94nop_random50": 50,
+    "koenigstuhl_94nop_top50": 60,
+    "training_seeds": 6,
+    "wilkies": 12,
+    "wilmoo": 12
+  }
+}
