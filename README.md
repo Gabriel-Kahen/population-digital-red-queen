@@ -101,7 +101,12 @@ request note, see `docs/EXTERNAL_FEEDBACK_AND_SUBMISSION.md`.
 
 Preprint DOI: [10.5281/zenodo.20349691](https://doi.org/10.5281/zenodo.20349691)
 
-Public release: [v0.1-preprint](https://github.com/Gabriel-Kahen/population-digital-red-queen/releases/tag/v0.1-preprint)
+Software DOI: [10.5281/zenodo.20350309](https://doi.org/10.5281/zenodo.20350309)
+
+Public releases:
+
+- [v0.1-preprint](https://github.com/Gabriel-Kahen/population-digital-red-queen/releases/tag/v0.1-preprint)
+- [v0.1.0](https://github.com/Gabriel-Kahen/population-digital-red-queen/releases/tag/v0.1.0)
 
 For OSF preprint metadata, release notes, and the GitHub/Zenodo checklist, see:
 

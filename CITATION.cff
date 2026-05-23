@@ -4,10 +4,11 @@ title: "Population Digital Red Queen: A Model of LLM-Driven Coevolution in Progr
 authors:
   - family-names: "Kahen"
     given-names: "Gabriel"
-date-released: "2026-05-22"
-version: "0.1-preprint"
+date-released: "2026-05-23"
+version: "v0.1.0"
 type: software
-url: "https://github.com/Gabriel-Kahen/population-digital-red-queen"
+doi: "10.5281/zenodo.20350309"
+url: "https://zenodo.org/records/20350309"
 repository-code: "https://github.com/Gabriel-Kahen/population-digital-red-queen"
 abstract: "A research artifact and manuscript for Population Digital Red Queen, a population-level extension of LLM-driven adversarial program evolution studied in Core War."
 keywords:
