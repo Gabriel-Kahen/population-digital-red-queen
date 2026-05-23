@@ -8,6 +8,10 @@ version = "0.1.0"
 description = "Population-level Digital Red Queen algorithms and paper artifacts"
 readme = "README.md"
 requires-python = ">=3.9"
+license = {text = "MIT"}
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+]
 dependencies = [
   "numpy>=1.21",
   "matplotlib>=3.5",
