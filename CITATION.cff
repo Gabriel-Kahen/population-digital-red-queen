@@ -7,8 +7,7 @@ authors:
 date-released: "2026-05-22"
 version: "0.1-preprint"
 type: software
-doi: "10.5281/zenodo.20349691"
-url: "https://zenodo.org/records/20349691"
+url: "https://github.com/Gabriel-Kahen/population-digital-red-queen"
 repository-code: "https://github.com/Gabriel-Kahen/population-digital-red-queen"
 abstract: "A research artifact and manuscript for Population Digital Red Queen, a population-level extension of LLM-driven adversarial program evolution studied in Core War."
 keywords:
@@ -19,3 +18,12 @@ keywords:
   - "artificial life"
   - "program synthesis"
   - "self-play"
+preferred-citation:
+  type: article
+  title: "Population Digital Red Queen: A Model of LLM-Driven Coevolution in Program Ecosystems"
+  authors:
+    - family-names: "Kahen"
+      given-names: "Gabriel"
+  date-published: "2026-05-22"
+  doi: "10.5281/zenodo.20349691"
+  url: "https://zenodo.org/records/20349691"
